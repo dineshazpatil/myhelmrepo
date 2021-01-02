@@ -1,22 +1,21 @@
 apiVersion: v1
 entries:
-  customchart:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2021-01-02T07:17:28.403309126Z"
-    description: A Helm chart for Kubernetes
-    digest: 8f09c1ff2af20842a9d28b3402b916317c3a4fb86b5cbac647d6c56c7d1cfd8d
-    name: customchart
-    type: application
-    urls:
-    - docs/customchart-0.1.0.tgz
-    version: 0.1.0
   gitrepochart:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2021-01-02T07:17:28.401617768Z"
+    appVersion: 1.16.1
+    created: "2021-01-02T07:38:29.136692199Z"
     description: A Helm chart for Kubernetes
-    digest: 23b9d239bb96bdd0d1848a9c34a8d9e81c96c52166d97d7ef96e57934cbd7d42
+    digest: 38d60bab020a6e7ae7ec6937f31e573cfa0bd22a276d2b60c44f86e565774ce5
+    name: gitrepochart
+    type: application
+    urls:
+    - gitrepochart-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-02T07:38:29.136235884Z"
+    description: A Helm chart for Kubernetes
+    digest: a04105c0251480d51b4e25c4a812af74a831ac7c39f6b33ae6ea30e0f6ae96be
     name: gitrepochart
     type: application
     urls:
@@ -25,7 +24,7 @@ entries:
   mysql:
   - apiVersion: v1
     appVersion: 5.7.30
-    created: "2021-01-02T07:17:28.402686304Z"
+    created: "2021-01-02T07:38:29.137757034Z"
     deprecated: true
     description: DEPRECATED - Fast, reliable, scalable, and easy to use open-source
       relational database system.
@@ -43,4 +42,4 @@ entries:
     urls:
     - mysql-1.6.9.tgz
     version: 1.6.9
-generated: "2021-01-02T07:17:28.400955045Z"
+generated: "2021-01-02T07:38:29.135619563Z"
